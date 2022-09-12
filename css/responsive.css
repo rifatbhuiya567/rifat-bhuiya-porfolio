@@ -312,4 +312,19 @@
     .footer {
         padding: 80px 35px;
     }
+    .self-img {
+        height: 338px;
+    }
+    #progress-bar .section-heading h3::after {
+        left: 25px;
+    }
+    #progress-bar .section-heading h3::before {
+        left: 25px;
+    }
+    #tools .section-heading h3::after {
+        left: 13px;
+    }
+    #tools .section-heading h3::before {
+        left: 13px;
+    }
 }
