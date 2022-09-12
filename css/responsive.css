@@ -1,0 +1,283 @@
+@media (min-width: 1400px) and (max-width: 2000.98px){
+    #testimonial .slick-track{
+        height: 160px;
+    }
+    #testimonial .slick-dots {
+        margin-top: 6px;
+    }
+    .footer-bottom .mail p i {
+        left: 65px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #work-detail .work-content {
+        height: 250px;
+    }
+    #work-detail .pt-5 {
+        padding-top: 1rem !important;
+    }
+    #about {
+        height: 620px;
+    }
+    .section-padding {
+        padding-top: 70px;
+    }
+    .self-img {
+        height: 363px;
+    }
+    #tools .sm-gap {
+        margin-top: 16px !important;
+    }
+    .section-heading{
+        margin-top: 16px;
+    }
+    .section-heading .faq::after {
+        left: 24px;
+    }
+    .section-heading .faq::before {
+        left: 24px;
+    }
+    .contact-form {
+        padding: 8px 16px;
+    }
+    .footer-top .social-icons {
+        margin-top: 4px;
+        text-align: end;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 840.98px){
+    .footer-bottom .mail p i {
+        left: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .section-heading h3::before {
+        left: 50px;
+    }
+    .section-heading h3::after {
+        left: 50px;
+    }
+    #work-detail .work-content {
+        height: 170px;
+    }
+    #work-detail .pt-5 {
+        padding-top: 1rem !important;
+    }
+    .footer-top .social-icons {
+        margin-top: 8px;
+        text-align: right;
+    }
+    #about {
+        height: 730px;
+    }
+    #about .justify-content-between {
+        justify-content: center !important;
+    }
+    #about .about-text{
+        text-align: center;
+    }
+    .self-img {
+        margin-top: 80px;
+    }
+    .section-padding {
+        padding-top: 64px;
+    }
+    #tools .sm-gap {
+        margin-top: 16px !important;
+    }
+    #faq .section-heading{
+        margin-top: 30px;
+    }
+    .contact-text h5 {
+        font-size: 38px;
+        line-height: 46px;
+        margin-bottom: 16px;
+    }
+    .contact-form {
+        padding: 24px 36px;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    nav .fa-solid, .fas {
+        color: #000;
+    }
+    .navbar-toggler {
+        border: 2px solid #181818;
+    }
+    .footer-bottom .mail p i {
+        visibility: hidden;
+    }
+    .myNav .myUl li a:hover{
+        color: #000;
+        background: transparent;
+    }
+    .myNav .myUl li .active{
+        color: #000;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 575.98px) {
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 33;
+    }
+    #heroarea {
+        height: 600px;
+        border-bottom: .1px solid rgba(0, 0, 0, 0.5);
+    }
+    .heroarea-content{
+        padding-top: 90px;
+    }
+    .heroarea-content :is(h2, h1) {
+        font-size: 48px;
+    }
+    .heroarea-content .titile-discription {
+        padding-top: 16px;
+        width: 385px;
+    }
+    .heroarea-content .hbtn a {
+        font-size: 21px;
+        padding: 12px 24px;
+    }
+    .self-img img {
+        height: 130px;
+    }
+    #about {
+        height: 748px;
+        border-bottom: .1px solid transparent;
+    }
+    .self-img {
+        margin-top: 88px;
+    }
+    .self-img img {
+        height: 100%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+    #about .about-text{
+        text-align: center;
+    }
+    #about .about-text h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    #about .about-text h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    #about p {
+        padding-top: 10px;
+    }
+    #work-detail .work-content {
+        height: 100%;
+        padding-bottom: 16px;
+    }
+    #work-detail .pt-5 {
+        padding-top: 0 !important;
+    }
+    .footer-top{
+        height: 80px;
+        position: relative;
+    }
+    .footer-top .col-5 {
+        padding: 0 0;
+    }
+    .footer-top .col-5 a{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    .footer-top .col-7 {
+        text-align: end;
+        padding: 0 0;
+    }
+    .footer-top .social-icons ul {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    .footer-top .social-icons ul li {
+        padding: 0 1px;
+    }
+    .footer-bottom .copyright{
+        text-align: center;
+    }
+    .footer-bottom .mail {
+        text-align: center;
+    }
+    .section-padding {
+        padding-top: 64px;
+    }
+    .section-heading-from{
+        padding-top: 32px;
+    }
+    #progress-bar .barss{
+        margin-bottom: 24px;
+    }
+    #tools .container, .row {
+        justify-content: center;
+    }
+    #tools .tools{
+        padding-bottom: 16px !important;
+    }
+    #faq{
+        padding-top: 96px;
+    }
+    .contact-text h5 {
+        font-size: 36px;
+    }
+    #form .col-12 {
+        padding-bottom: 16px;
+    }
+    .contact-form {
+        padding: 24px 36px;
+    }
+}
+@media (max-width: 390.98px){
+    .heroarea-content :is(h2, h1) {
+        font-size: 44px;
+    }
+    .heroarea-content .titile-discription {
+        padding-top: 8px;
+        width: 330px;
+    }
+    .self-img {
+        height: 368px;
+    }
+    .progr article em {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .section-heading h3 {
+        margin-top: 30px;
+    }
+}
