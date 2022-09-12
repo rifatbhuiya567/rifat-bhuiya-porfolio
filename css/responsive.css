@@ -262,6 +262,7 @@
         padding: 24px 36px;
     }
 }
+
 @media (max-width: 390.98px){
     .heroarea-content :is(h2, h1) {
         font-size: 44px;
@@ -279,5 +280,36 @@
     }
     .section-heading h3 {
         margin-top: 30px;
+    }
+}
+
+@media (max-width: 374.98px){
+    #heroarea {
+        height: 500px;
+    }
+    .heroarea-content :is(h2, h1) {
+        font-size: 36px;
+    }
+    .heroarea-content .titile-discription {
+        width: 290px;
+    }
+    .heroarea-content .hbtn a {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+    #work-detail .section-heading h3::after {
+        left: 0px;
+    }
+    #work-detail .section-heading h3::before {
+        left: 0px;
+    }
+    .testimonial-content span {
+        font-size: 20px;
+    }
+    .testimonial-content h6 {
+        font-size: 26px;
+    }
+    .footer {
+        padding: 80px 35px;
     }
 }
