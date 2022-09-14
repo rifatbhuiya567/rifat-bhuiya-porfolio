@@ -267,6 +267,9 @@
     .heroarea-content :is(h2, h1) {
         font-size: 44px;
     }
+    .heroarea-content .hbtn ul li{
+        margin: 0 6px;
+    }
     .heroarea-content .titile-discription {
         padding-top: 8px;
         width: 330px;
@@ -292,6 +295,9 @@
     }
     .heroarea-content .titile-discription {
         width: 290px;
+    }
+    .heroarea-content .hbtn ul li{
+        margin: 0 4px;
     }
     .heroarea-content .hbtn a {
         font-size: 18px;
